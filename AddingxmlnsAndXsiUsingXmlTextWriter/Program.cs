@@ -12,7 +12,9 @@ namespace AddingxmlnsAndXsiUsingXmlTextWriter
     {
         static void Main(string[] args)
         {
-
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            // reference from: https://social.msdn.microsoft.com/Forums/en-US/22cd18f8-7f0a-4369-bfa8-8bdc0a865c31/adding-xmlnsxsi-and-xsischemalocation-with-xmltextwriter?forum=xmlandnetfx
+            //
             MemoryStream ms  = new MemoryStream();
 
             XmlTextWriter writer =new XmlTextWriter(ms, null);
